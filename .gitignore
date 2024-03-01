@@ -1,0 +1,5 @@
+.DS_Store
+
+# Session Data files
+.RData
+.RDataTmp
