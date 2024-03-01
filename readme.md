@@ -28,18 +28,18 @@ Process :
 
 Script Files :
 --------------
-Data Extraction :
-    - twitter_apiData.py 
+
+- twitter_apiData.py 
                  - code to access twitter API and download tweeets data
                  - transform and clean the data 
                  - convert and save the dataset from JSON -> CSV
                  -  save the cleaned dataset to cleandata.csv
 
-    - twitter_csvData.py
+- twitter_csvData.py
                  -  script to transform and clean the dataset downloaded from kaggle
                  -  the data is cleaned by removing rows that have null values for username and text
                  -  Update the index so that it starts from 1
                  -  save the cleaned dataset to cleandata.csv
-    - twitter_dag.py
+- twitter_dag.py
                  - Airfolw dag scripts
 
